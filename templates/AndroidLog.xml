@@ -1,0 +1,7 @@
+<templateSet group="AndroidLog">
+  <template name="rogu" value="Log.d(&quot;DEBUG1&quot;, &quot;===================&quot;)&#10;Log.d(&quot;DEBUG2&quot;, &quot;&quot;)&#10;Log.d(&quot;DEBUG3&quot;, &quot;===================&quot;)" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>

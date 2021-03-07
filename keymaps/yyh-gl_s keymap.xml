@@ -1,0 +1,127 @@
+<keymap version="1" name="yyh-gl's keymap" parent="Emacs">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="meta c" />
+    <keyboard-shortcut first-keystroke="alt w" />
+  </action>
+  <action id="$Paste">
+    <keyboard-shortcut first-keystroke="ctrl y" />
+    <keyboard-shortcut first-keystroke="meta v" />
+  </action>
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift ctrl z" />
+    <keyboard-shortcut first-keystroke="ctrl alt slash" />
+  </action>
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="alt 1" />
+    <keyboard-shortcut first-keystroke="meta back_slash" />
+  </action>
+  <action id="ActivatePullRequestsToolWindow">
+    <keyboard-shortcut first-keystroke="alt 9" />
+  </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="alt t" />
+    <keyboard-shortcut first-keystroke="ctrl t" />
+  </action>
+  <action id="ActivateVersionControlToolWindow" />
+  <action id="BaseOnThisFunction" />
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="shift ctrl c" />
+  </action>
+  <action id="CloseAllEditors" />
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="k" />
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="0" />
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl c" />
+  </action>
+  <action id="CompareTwoFiles" />
+  <action id="CopyPaths" />
+  <action id="DatabaseView.CopyDdlAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt g" />
+  </action>
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="f4" />
+    <keyboard-shortcut first-keystroke="ctrl semicolon" />
+  </action>
+  <action id="Editor Copy">
+    <keyboard-shortcut first-keystroke="meta c" />
+    <keyboard-shortcut first-keystroke="alt w" />
+  </action>
+  <action id="Editor Paste">
+    <keyboard-shortcut first-keystroke="meta v" />
+  </action>
+  <action id="Editor Redo">
+    <keyboard-shortcut first-keystroke="ctrl alt slash" />
+  </action>
+  <action id="EditorBackSpace">
+    <keyboard-shortcut first-keystroke="back_space" />
+    <keyboard-shortcut first-keystroke="shift back_space" />
+    <keyboard-shortcut first-keystroke="ctrl h" />
+  </action>
+  <action id="EditorDeleteToLineStart">
+    <keyboard-shortcut first-keystroke="ctrl u" />
+  </action>
+  <action id="EditorKillRingSave" />
+  <action id="FileChooser.TogglePathShowing">
+    <keyboard-shortcut first-keystroke="ctrl p" />
+    <keyboard-shortcut first-keystroke="shift ctrl p" />
+  </action>
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="ctrl quote" />
+  </action>
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="alt quote" />
+  </action>
+  <action id="GotoSuperMethod" />
+  <action id="Images.Editor.ToggleGrid" />
+  <action id="NewFile">
+    <keyboard-shortcut first-keystroke="ctrl meta n" />
+  </action>
+  <action id="NextDiff">
+    <keyboard-shortcut first-keystroke="f7" />
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl n" />
+  </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl n" />
+    <keyboard-shortcut first-keystroke="meta close_bracket" />
+  </action>
+  <action id="PreviousDiff">
+    <keyboard-shortcut first-keystroke="shift f7" />
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl p" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl p" />
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
+  </action>
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+    <keyboard-shortcut first-keystroke="shift alt 5" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift f10" />
+    <keyboard-shortcut first-keystroke="ctrl meta r" />
+  </action>
+  <action id="SmartTypeCompletion">
+    <keyboard-shortcut first-keystroke="shift ctrl space" />
+  </action>
+  <action id="Terminal.CopySelectedText">
+    <keyboard-shortcut first-keystroke="meta c" />
+    <keyboard-shortcut first-keystroke="alt w" />
+  </action>
+  <action id="Terminal.MoveToolWindowTabLeft" />
+  <action id="Terminal.MoveToolWindowTabRight" />
+  <action id="Terminal.Paste">
+    <keyboard-shortcut first-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="meta v" />
+  </action>
+  <action id="TypeHierarchy" />
+  <action id="TypeHierarchyBase.BaseOnThisType" />
+  <action id="Vcs.UpdateProject" />
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl meta r" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="shift ctrl meta r" />
+  </action>
+</keymap>

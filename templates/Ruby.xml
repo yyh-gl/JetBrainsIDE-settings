@@ -1,0 +1,8 @@
+<templateSet group="Ruby">
+  <template name="rogu" value="puts '========================'&#10;pp $VAL$&#10;puts '========================'" description="デバッグ用出力テンプレート" toReformat="false" toShortenFQNames="true">
+    <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+</templateSet>

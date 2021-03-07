@@ -1,0 +1,54 @@
+<templateSet group="Go">
+  <template name="rogu" value="fmt.Println(&quot;========================&quot;)&#10;fmt.Println(&quot;$VAL$&quot;)&#10;fmt.Println(&quot;========================&quot;)" description="デバッグ用出力テンプレート" toReformat="false" toShortenFQNames="true">
+    <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+  <template name="rogud" value="fmt.Println(&quot;========================&quot;)&#10;fmt.Printf(&quot;%+v\n&quot;, $VAL$)&#10;fmt.Println(&quot;========================&quot;)" description="デバッグ用出力テンプレート（構造体詳細版）" toReformat="false" toShortenFQNames="true">
+    <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+  <template name="ctx" value="ctx context.Context" description="ctx context.Context" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+  <template name="for" value="for $INDEX$ := 0; $INDEX$ &lt; $LIMIT$; $INDEX$++ {&#10; $END$&#10;}" description="Indexed for loop" toReformat="true" toShortenFQNames="true">
+    <variable name="INDEX" expression="" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
+    <variable name="LIMIT" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="GO_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="forr" value="for $KEY$, $VALUE$ := range $COLLECTION$ {&#10; $END$&#10;}" description="For range loop" toReformat="true" toShortenFQNames="true">
+    <variable name="COLLECTION" expression="" defaultValue="&quot;collection&quot;" alwaysStopAt="true" />
+    <variable name="KEY" expression="" defaultValue="&quot;_&quot;" alwaysStopAt="true" />
+    <variable name="VALUE" expression="goSuggestVariableName()" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="test" value="func Test$NAME$(t *testing.T) {&#10;&#9;tests := []struct {&#10;&#9;&#9;name string&#10;&#9;&#9;$END$&#10;&#9;}{&#10;&#9;&#9;{&#10;&#9;&#9;&#9;name: &quot;&quot;,&#10;&#9;&#9;},&#10;&#9;}&#10;&#10;&#9;for _, tt := range tests {&#10;&#9;&#9;t.Run(tt.name, func(t *testing.T) {&#10;&#9;&#9;})&#10;&#9;}&#10;}" description="Test" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="tt" value="tests := []struct {&#10;&#9;name string&#10;&#9;$END$&#10;}{&#10;&#9;{&#10;&#9;&#9;name: &quot;&quot;,&#10;&#9;},&#10;}&#10;&#10;for _, tt := range tests {&#10;&#9;t.Run(tt.name, func(t *testing.T) {&#10;&#9;})&#10;}" description="テーブルドリブンテスト" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+  <template name="gs" value="s := &amp;http.Server{&#10;&#9;Addr:    &quot;:$ADDRESS$&quot;,&#10;&#9;Handler: $HANDLER$,&#10;}&#10;&#10;errCh := make(chan error, 1)&#10;sigCh := make(chan os.Signal, 1)&#10;signal.Notify(sigCh, syscall.SIGTERM, syscall.SIGINT)&#10;&#10;go func() {&#10;&#9;fmt.Println(&quot;Server Start&quot;)&#10;&#9;errCh &lt;- s.ListenAndServe()&#10;}()&#10;&#10;select {&#10;case err := &lt;-errCh:&#10;&#9;fmt.Println(&quot;Error happened:&quot;, err.Error())&#10;case sig := &lt;-sigCh:&#10;&#9;fmt.Println(&quot;Signal received:&quot;, sig)&#10;}&#10;&#10;ctx, cancel := context.WithTimeout(context.Background(), 30*time.Second)&#10;defer cancel()&#10;if err := s.Shutdown(ctx); err != nil {&#10;&#9;fmt.Println(&quot;Graceful shutdown failed:&quot;, err.Error())&#10;}&#10;fmt.Println(&quot;Server shutdown&quot;)" description="Gracefully shutdown" toReformat="false" toShortenFQNames="true">
+    <variable name="ADDRESS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="HANDLER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+  <template name="func" value="func $NAME$($END$) {&#10;}" description="Func declaretion" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GO" value="true" />
+    </context>
+  </template>
+</templateSet>

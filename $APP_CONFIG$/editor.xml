@@ -1,0 +1,10 @@
+<application>
+  <component name="EditorSettings">
+    <option name="STRIP_TRAILING_SPACES" value="None" />
+    <option name="IS_ENSURE_NEWLINE_AT_EOF" value="true" />
+  </component>
+  <component name="InlayHintsSettings">
+    <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
+  </component>
+  <component name="LiveEditOptions" chromeUpdateApp="true" nodeUpdateOnChanges="true" restartIfHotSwapFailed="true" />
+</application>
