@@ -30,8 +30,12 @@
           <option name="url" value="git@github.com:golang/go.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:yyh-gl/cron-jobs.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/workspaces/Go/src/github.com/golang" />
+    <option name="cloneParentDir" value="$USER_HOME$/workspaces/Go/src/github.com/yyh-gl" />
   </component>
 </application>
