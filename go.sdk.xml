@@ -3,7 +3,21 @@
     <sdk-url>
       <set>
         <option value="" />
+        <option value="file://" />
+        <option value="file://$USER_HOME$/.anyenv/envs/goenv/versions/1.12.5" />
+        <option value="file://$USER_HOME$/.anyenv/envs/goenv/versions/1.13.5" />
+        <option value="file://$USER_HOME$/.anyenv/envs/goenv/versions/1.13.6" />
+        <option value="file://$USER_HOME$/.anyenv/envs/goenv/versions/1.14.0" />
+        <option value="file://$USER_HOME$/.anyenv/envs/goenv/versions/1.14.1" />
+        <option value="file://$USER_HOME$/.anyenv/envs/goenv/versions/1.14.3" />
+        <option value="file://$USER_HOME$/.anyenv/envs/goenv/versions/1.14.4" />
+        <option value="file://$USER_HOME$/.anyenv/envs/goenv/versions/1.14.6" />
+        <option value="file://$USER_HOME$/.anyenv/envs/goenv/versions/1.15.2" />
+        <option value="file://$USER_HOME$/.anyenv/envs/goenv/versions/1.15.3" />
+        <option value="file://$USER_HOME$/.anyenv/envs/goenv/versions/1.15.5" />
+        <option value="file://$USER_HOME$/workspaces/Go/1.15.8" />
         <option value="file://$USER_HOME$/workspaces/Go/1.16.0" />
+        <option value="file:///usr/local/Cellar/go/1.14.2_1/libexec" />
       </set>
     </sdk-url>
   </component>
