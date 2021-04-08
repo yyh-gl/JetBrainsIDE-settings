@@ -6,5 +6,7 @@
     <option name="PROXY_AUTHENTICATION" value="true" />
     <option name="KEEP_PROXY_PASSWORD" value="true" />
     <option name="PROXY_EXCEPTIONS" value="https://github.com*" />
+    <option name="USE_PAC_URL" value="true" />
+    <option name="PAC_URL" value="https://github.com*" />
   </component>
 </application>
