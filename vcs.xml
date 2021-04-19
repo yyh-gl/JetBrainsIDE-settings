@@ -26,8 +26,12 @@
           <option name="url" value="git@github.com:docker/compose-cli.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:sumally/sumally-web.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/workspaces/Go/src/github.com/yyh-gl" />
+    <option name="cloneParentDir" value="$USER_HOME$/workspaces/Go/src/github.com/sumally" />
   </component>
 </application>
