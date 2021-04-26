@@ -4,6 +4,7 @@
       <mapping pattern="credentials" type="AUTO_DETECTED" />
       <mapping pattern="CODEOWNERS" type="AUTO_DETECTED" />
       <mapping pattern="Dockerfile2" type="AUTO_DETECTED" />
+      <mapping pattern="Makefile2" type="AUTO_DETECTED" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
@@ -26,6 +27,7 @@
       <removed_mapping ext="slide" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="slido" approved="true" type="Markdown" />
       <removed_mapping ext="workflow" approved="true" type="XML" />
+      <removed_mapping pattern=".env" approved="true" type="Env File" />
       <removed_mapping pattern="Makefile" approved="true" type="Makefile" />
       <mapping ext="pu" type="PlantUML file" />
     </extensionMap>
