@@ -11,18 +11,17 @@
       <mapping pattern="Makefile" type="Makefile" />
       <mapping ext="slide" type="Markdown" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
+      <mapping pattern=".git-pr-release" type="PLAIN_TEXT" />
+      <mapping pattern="gocraaa" type="PLAIN_TEXT" />
       <mapping pattern=".secret_env" type="PLAIN_TEXT" />
       <mapping pattern=".keep" type="PLAIN_TEXT" />
       <mapping pattern="api" type="PLAIN_TEXT" />
-      <mapping pattern=".git-pr-release" type="PLAIN_TEXT" />
-      <mapping pattern="gocraaa" type="PLAIN_TEXT" />
       <mapping pattern="hoge" type="PLAIN_TEXT" />
+      <mapping ext="replay" type="PLAIN_TEXT" />
       <mapping ext="workflow" type="PLAIN_TEXT" />
+      <mapping ext="key" type="PLAIN_TEXT" />
       <mapping ext="txtar" type="PLAIN_TEXT" />
       <mapping ext="cnf" type="PLAIN_TEXT" />
-      <mapping ext="replay" type="PLAIN_TEXT" />
-      <mapping ext="key" type="PLAIN_TEXT" />
-      <mapping ext="pu" type="PlantUML file" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="mk" approved="true" type="Makefile" />
       <removed_mapping ext="psd" approved="true" type="Image" />
@@ -31,6 +30,7 @@
       <removed_mapping ext="workflow" approved="true" type="XML" />
       <removed_mapping pattern=".env" approved="true" type="Env File" />
       <removed_mapping pattern="Makefile" approved="true" type="PLAIN_TEXT" />
+      <mapping ext="pu" type="PlantUML file" />
     </extensionMap>
   </component>
 </application>
