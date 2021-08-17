@@ -18,6 +18,7 @@
         <option value="file://$USER_HOME$/workspaces/Go/1.15.8" />
         <option value="file://$USER_HOME$/workspaces/Go/1.16.0" />
         <option value="file://$USER_HOME$/workspaces/Go/1.16.4" />
+        <option value="file://$USER_HOME$/workspaces/Go/1.17" />
         <option value="file:///usr/local/Cellar/go/1.14.2_1/libexec" />
       </set>
     </sdk-url>
